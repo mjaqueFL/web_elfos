@@ -1,0 +1,90 @@
+/* Pablo Trigo de la Piedad */
+@font-face{
+	font-family: "Dark Elf";
+	src: url("../fuente/dark_elf/Dark elf.otf");
+}
+/*Imagen de fondo al body*/
+body{
+	background: url("../imagenes/rivendell2.PNG") no-repeat center center fixed;
+	background-size: cover;
+}
+/*tamaño y tipo de fuente del navegador*/
+nav{
+	font-family: "Dark Elf";
+	font-size: 1.5rem;
+}
+/*posicionamiento de la caja del footer*/
+#pie{
+	position: fixed;
+	bottom: 0;
+	align-items: center;
+}
+/*Ajustar los enlaces del footer*/
+#pie>div>a{
+	display: inline-flex;
+	color: white;
+	margin-left: 20px;
+	text-decoration: none;
+}
+/*Color del titulo de las cartas*/
+h5{
+	color: #303911;
+}
+/*Color del texto de los párrafos de las cartas*/
+h5+p{
+	color: black;
+	font-weight: bold;
+}
+/* Estilos de las cartas del centro de la página*/
+.carta{
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-clip: border-box;
+	border-radius: .25rem;
+	background-color: #ebc8a7;
+	opacity: 0.7;
+}
+/*Tamaño a la caja que contiene de la imagen grande de la carta*/
+.imagenCarta{
+	width: 288px;
+	height: 200px;
+}
+/*Tamaño de la imagen de la carta*/
+.imagenCarta>img{
+	width: 100%;
+	height: 200px;
+}
+/*Cambiar de color de letra y de fondo al pasar por encima del enlace de las cartas*/
+.carta>a:hover{
+	background-color: #303911;
+	color: #ebc8a7;
+}
+/*Justificar el contenido de las cartas*/
+.card-text{
+	text-align: justify;
+}
+/*tamaño de la caja que contiene la imagen letraElfica en las cartas*/
+.icono{
+	width: 30%;
+	height: auto;
+	display: inline-block;
+}
+/*tamaño de la imagen letraElfica en las cartas*/
+.icono>img{
+	width: 100%;
+	height: auto;
+}
+/*Color y margen a los enlaces del navegador*/
+ul>li{
+	margin-right: 50px;
+}
+
+/*
+	imagenes cartas
+	https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.at%2Fpin%2F572449802612793523%2F&psig=AOvVaw1klUcH4NQPyx4ttvo7p9LR&ust=1582422897749000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKiMpumG5OcCFQAAAAAdAAAAABAD
+	https://www.google.com/url?sa=i&url=https%3A%2F%2Funderworlds.games%2Fel-senor-de-los-anillos%2Felfos%2F&psig=AOvVaw3b95GjjyhV4L015GSqQ3E7&ust=1582423499207000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNjy5oaJ5OcCFQAAAAAdAAAAABAD
+	https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FEl_Se%25C3%25B1or_de_los_Anillos&psig=AOvVaw0cTnxPCRsaoRMYeSXETb6Y&ust=1582423550757000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOiS1Z-J5OcCFQAAAAAdAAAAABAD
+*/
