@@ -1,90 +1,129 @@
 /* Pablo Trigo de la Piedad */
-@font-face{
-	font-family: "Dark Elf";
-	src: url("../fuente/dark_elf/Dark elf.otf");
-}
 /*Imagen de fondo al body*/
 body{
 	background: url("../imagenes/rivendell2.PNG") no-repeat center center fixed;
 	background-size: cover;
+    min-width: 400px;
 }
+                                                        /*NAVEGADOR*/
 /*tamaño y tipo de fuente del navegador*/
 nav{
-	font-family: "Dark Elf";
+	font-family: 'Fondamento' ;
 	font-size: 1.5rem;
 }
-/*posicionamiento de la caja del footer*/
-#pie{
-	position: fixed;
-	bottom: 0;
-	align-items: center;
+/*Tamaño de la imagen del menu*/
+nav>img{
+    width: 10%;
 }
-/*Ajustar los enlaces del footer*/
-#pie>div>a{
-	display: inline-flex;
-	color: white;
-	margin-left: 20px;
-	text-decoration: none;
+                                                    /* Caja central de la página, el contenido*/
+/*Color y margen a los enlaces del navegador*/
+ul>li{
+    margin-right: 50px;
 }
+
 /*Color del titulo de las cartas*/
 h5{
-	color: #303911;
+    color: #303911;
 }
 /*Color del texto de los párrafos de las cartas*/
 h5+p{
-	color: black;
-	font-weight: bold;
+    color: black;
+    font-weight: bold;
 }
 /* Estilos de las cartas del centro de la página*/
 .carta{
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	min-width: 0;
-	word-wrap: break-word;
-	background-clip: border-box;
-	border-radius: .25rem;
-	background-color: #ebc8a7;
-	opacity: 0.7;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border-radius: .25rem;
+    background-color: #ebc8a7;
 }
 /*Tamaño a la caja que contiene de la imagen grande de la carta*/
 .imagenCarta{
-	width: 288px;
-	height: 200px;
+    width: 288px;
+    height: 200px;
 }
 /*Tamaño de la imagen de la carta*/
 .imagenCarta>img{
-	width: 100%;
-	height: 200px;
+    width: 100%;
+    height: 200px;
 }
 /*Cambiar de color de letra y de fondo al pasar por encima del enlace de las cartas*/
 .carta>a:hover{
-	background-color: #303911;
-	color: #ebc8a7;
+    background-color: #303911;
+    color: #ebc8a7;
 }
 /*Justificar el contenido de las cartas*/
 .card-text{
-	text-align: justify;
+    text-align: justify;
 }
 /*tamaño de la caja que contiene la imagen letraElfica en las cartas*/
 .icono{
-	width: 30%;
-	height: auto;
-	display: inline-block;
+    width: 30%;
+    height: auto;
+    display: inline-block;
 }
 /*tamaño de la imagen letraElfica en las cartas*/
 .icono>img{
-	width: 100%;
-	height: auto;
+    width: 100%;
+    height: auto;
 }
-/*Color y margen a los enlaces del navegador*/
-ul>li{
-	margin-right: 50px;
+                                                                                /*FOOTER*/
+
+footer{
+	width: 100%;
+    position: fixed;
+    bottom: 0;
+	padding: 1%;
 }
 
-/*
-	imagenes cartas
-	https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.at%2Fpin%2F572449802612793523%2F&psig=AOvVaw1klUcH4NQPyx4ttvo7p9LR&ust=1582422897749000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCKiMpumG5OcCFQAAAAAdAAAAABAD
-	https://www.google.com/url?sa=i&url=https%3A%2F%2Funderworlds.games%2Fel-senor-de-los-anillos%2Felfos%2F&psig=AOvVaw3b95GjjyhV4L015GSqQ3E7&ust=1582423499207000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNjy5oaJ5OcCFQAAAAAdAAAAABAD
-	https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.wikipedia.org%2Fwiki%2FEl_Se%25C3%25B1or_de_los_Anillos&psig=AOvVaw0cTnxPCRsaoRMYeSXETb6Y&ust=1582423550757000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOiS1Z-J5OcCFQAAAAAdAAAAABAD
-*/
+/*Estilos enlaces del footer*/
+.estiloEnlace{
+	text-decoration: none;
+	color: white !important;
+}
+
+
+                                                                         /*páginas que no son home*/
+/*estilo de los enlaces del footer ?????*/
+.colorMenu{
+	text-decoration: none;
+	color: black !important;
+}
+
+
+
+                                                                                /*Medias query*/
+
+@media (max-width: 574px) {
+    div>nav+div{
+        padding-top: 5%;
+    }
+}
+@media (max-width: 864px) {
+    footer{
+        position: relative;
+        bottom: 0;
+    }
+    nav+div{
+        padding-bottom: 7%;
+    }
+}
+@media (max-width: 1040px) {
+    nav>h3{
+        font-size: 1.4rem;
+    }
+    #imgMenu{
+        width: 100px;
+        height: auto;
+    }
+}
+@media (max-width: 590px) {
+    footer *{
+        margin: 0 auto;
+        text-align: center;
+    }
+}
