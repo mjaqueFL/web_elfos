@@ -94,14 +94,11 @@ footer{
 	color: black !important;
 }
 
-
-
-                                                                                /*Medias query*/
-
 @media (max-width: 574px) {
     div>nav+div{
         padding-top: 5%;
     }
+
 }
 @media (max-width: 864px) {
     footer{
