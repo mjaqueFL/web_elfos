@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Pablo Trigo de la Piedad">
+        <title>Página de inicio</title>
+        <link rel="stylesheet" type="text/css" href="../../css/estilo.css">
+        <!-- Bootstrap CSS -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Fondamento&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-fluid p-0 " role="main">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark"  role="navigation">
+                <button name="BotónMenú"class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" role="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavDropdown" >
+                    <ul class="navbar-nav" >
+                        <li class="nav-item active" >
+                            <a class="nav-link" href="../../index.html" role="link">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../historia.html" role="link">Historia</a>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" href="../historia.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Personajes
+                            </a>
+                            <div class="dropdown-menu navbar-expand-lg " aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="elrond.html" role="link">Elron</a>
+                                <a class="dropdown-item" href="arwen.html" role="link">Arwen</a>
+                                <a class="dropdown-item" href="Thranduil.html" role="link">Thranduil</a>
+                                <a class="dropdown-item" href="Legolas.html" role="link">Legolas</a>
+                                <a class="dropdown-item" href="Galadriel.html" role="link">Galadriel</a>
+                            </div>
+                        </li>
+                        <li class="nav-item" >
+                            <a class="nav-link" href="../formulario.html" role="link">Únete al clan</a>
+                        </li>
+                    </ul>
+                </div>
+                <p class="text-white-50" style="margin: 0;">Bienvenidos al clan</p>
+                <img id="imgMenu" alt="Imagen de elfa" src="../../imagenes/tauriel.jpg">
+            </nav>
+            <div class="justify-content-around d-flex align-items-center bd-highlight" style="text-align: justify;">
+                <div class=" bg-dark text-white" style=" padding: 2%; margin: 0 13%; font-family: 'Oswald', serif;">
+                    <p class="">
+                        <h3 style="width: 100%; border-bottom: white 1px solid;">HISTORIA</h3>
+                        <h3>Elrond</h3> Es medio-elfo (hijo de Elfos y Hombres, también llamados Peredhil) muy fuerte y sabio.
+                        Se enfrentó a Sauron en la Guerra del Anillo y luchó en la Guerra de la Última Alianza y en la
+                        invasión de Eriador.
+                        Es hijo de Eärendil, tiene un hermano llamado Elros quien, a diferencia de él, eligió ser de la
+                        raza humana. Elrond se casó con Celebrían y tuvo tres hijos, los gemelos Elladan y Elrohir, y
+                        Arwen, llamada Undómiel. Elrond portaba el más grande de los Tres Anillos, Vilya, que recibió
+                        de manos de Gil-galad. Se lo conoció como Elrond el Medio Elfo y Señor de Imladris.
+                        Físicamente tiene las características de un elfo común, de pelo negro y tez blanca e
+                        imperecedera que por un lado se ve joven, pero por otro se ve extraordinariamente sabio, de
+                        ojos grises con un claro resplandor estelar.<br/><br/>
+                        <h3 style="width: 100%; border-bottom: white 1px solid;">HABILIDADES</h3>
+                        Se dice que Elrond era el más sabio entre los Eldar, excepto quizá Galadriel. Era un gran maestro de
+                        la ciencia y un poderoso guerrero, que en más de una ocasión se enfrentó a Sauron.
+                    </p>
+                </div>
+                <div>
+                    <img src="../../imagenes/elrond.png">
+                </div>
+            </div>
+        </div>
+        <footer class="row bg-dark m-0 justify-content-between ">
+            <div>
+                <img src="../../imagenes/car_logo_el_senor_de_los_anillos.png" alt="Imagen de texto el señor de los anillos" longdesc="Imagen con el texto el señor de los anillos que forma parte del pie de página" role="img">
+            </div>
+            <div class="d-flex justify-content-around align-items-center" style="width: 50%; font-family: 'Oswald', serif;" role="contentinfo">
+                <a class="estiloEnlace align-item-center" href="../legales/privacidad.html" role="link">Política de privacidad</a>
+                <a class="estiloEnlace align-item-center" href="../legales/cookies.html" role="link">Política de cookies</a>
+                <a class="estiloEnlace align-item-center" href="../legales/aviso.html" role="link" >Aviso legal</a>
+            </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
