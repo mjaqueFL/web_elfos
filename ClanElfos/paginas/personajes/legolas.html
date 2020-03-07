@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Jose Alberto Solis Godoy">
+        <title>Página de inicio</title>
+        <link rel="stylesheet" type="text/css" href="../../css/estilo.css">
+        <!-- Bootstrap CSS -->
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Fondamento&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container-fluid p-0 " role="main">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark"  role="navigation">
+                <button name="BotónMenú"class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" role="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarNavDropdown" >
+                    <ul class="navbar-nav" >
+                        <li class="nav-item active" >
+                            <a class="nav-link" href="../../index.html" role="link" onFocus="accessFocusMenu(this)" onBlur="removeBackground(this)" >Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../../paginas/historia.html" role="link" onFocus="accessFocusMenu(this)" onBlur="removeBackground(this)">Historia</a>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" href="personajes.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onFocus="accessFocusMenu(this)" onBlur="removeBackground(this)">
+                                Personajes
+                            </a>
+                            <div class="dropdown-menu navbar-expand-lg " aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="../../paginas/personajes/elron.html" role="link" onFocus="accessFocusSubMenu(this)" onBlur="accessBlurSubMenu(this)">Elrond</a>
+                                <a class="dropdown-item" href="../../paginas/personajes/arwen.html" role="link" onFocus="accessFocusSubMenu(this)" onBlur="accessBlurSubMenu(this)">Arwen</a>
+                                <a class="dropdown-item" href="../../paginas/personajes/Thranduil.html" role="link" onFocus="accessFocusSubMenu(this)" onBlur="accessBlurSubMenu(this)">Thranduil</a>
+                                <a class="dropdown-item" href="../../paginas/personajes/Legolas.html" role="link" onFocus="accessFocusSubMenu(this)" onBlur="accessBlurSubMenu(this)">Legolas</a>
+                                <a class="dropdown-item" href="../../paginas/personajes/Galadriel.html" role="link" onFocus="accessFocusSubMenu(this)" onBlur="accessBlurSubMenu(this)">Galadriel</a>
+                            </div>
+                        </li>
+                        <li class="nav-item" >
+                            <a class="nav-link" href="paginas/formularioC.html" role="link" onFocus="accessFocusMenu(this)" onBlur="removeBackground(this)">Únete al clan</a>
+                        </li>
+                    </ul>
+                </div>
+                <p class="text-white-50" style="margin: 0;">Bienvenidos al clan</p>
+                <img id="imgMenu" alt="Imagen de elfa" src="../../imagenes/tauriel.jpg">
+            </nav>
+            <div class="justify-content-around d-flex align-items-center bd-highlight" style="text-align: justify;">
+                <div class=" bg-dark text-white" style=" padding: 2%; margin: 0 13%; font-family: 'Oswald', serif;">
+                    <p class="">
+                        <h3 style="width: 100%; border-bottom: white 1px solid;">HISTORIA</h3>
+                        <h3>Legolas</h3> 
+						Elfo sindar, hijo de Thranduil, Rey de los Elfos Silvanos del Bosque Negro; por lo tanto, príncipe del Bosque Negro. Formó parte de la Comunidad del Anillo y se hizo muy amigo de Aragorn y de Gimli. Su amistad con Gimli fue un gran paso para las relaciones entre enanos y elfos, muy debilitadas por sus antiguas guerras. Sus armas eran un arco que trajo del Bosque Negro, el cual cambió por uno que le regaló la Dama Galadriel y un par de cuchillos que llevaba en el carcaj donde guardaba las flechas. Era un gran arquero y guerrero y poseía una impresionante visión.
+					
+						Su padre le envió al Concilio de Elrond a informar que Gollum había escapado por una distracción creada por el ataque de una hueste de orcos. Cuando el Concilio decidió que lo mejor era destruir el anillo en el Monte del Destino, Legolas se ofreció para acompañar a Frodo. 
+                        <h3 style="width: 100%; border-bottom: white 1px solid;">HABILIDADES</h3>
+						<ul>
+							<li>El uso del arco es su mayor hablidad. Puede llegar a disparar sin mirar incluso a su objetivo.</li>
+							<li>Es un gran rastreador. Puede intuir problemas desde grandes distancias.</li>
+						</ul>
+                    </p>
+                </div>
+                <div>
+                    <img src="../../imagenes/legolas.png">
+                </div>
+            </div>
+        </div>
+        <footer class="row bg-dark m-0 justify-content-between ">
+            <div>
+                <img src="../../imagenes/car_logo_el_senor_de_los_anillos.png" alt="Imagen de texto el señor de los anillos" longdesc="Imagen con el texto el señor de los anillos que forma parte del pie de página" role="img">
+            </div>
+                <div class="d-flex justify-content-around align-items-center" style="width: 50%; font-family: 'Oswald', serif;" role="contentinfo">
+                    <a class="estiloEnlace align-item-center" href="paginas/legales/privacidad.html" role="link" onFocus="accessFocusMenu(this)" onBlur="removeBackground(this)">Política de privacidad</a>
+                    <a class="estiloEnlace align-item-center" href="paginas/legales/cookies.html" role="link" onFocus="accessFocusMenu(this)" onBlur="removeBackground(this)">Política de cookies</a>
+                    <a class="estiloEnlace align-item-center" href="paginas/legales/aviso.html" role="link" onFocus="accessFocusMenu(this)" onBlur="removeBackground(this)">Aviso legal</a>
+                </div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+		<script src="../../javaScript/accesibilidad.js"></script>
+    </body>
+</html>
