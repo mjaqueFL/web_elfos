@@ -1,5 +1,7 @@
 // JavaScript Document
 
+/*Jose Alberto Solis Godoy*/
+
 function accessAFocus(elemento){
 	
 	elemento.style.backgroundColor="#303911";

@@ -1,4 +1,6 @@
 
+/*Jose Alberto Solis Godoy*/
+
 window.onload = document.getElementById("enviar").disabled = true;
 
 function requerido(elemento) {
