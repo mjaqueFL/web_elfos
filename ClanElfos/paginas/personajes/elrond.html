@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="author" content="Pablo Trigo de la Piedad">
-        <title>Página de inicio</title>
+        <title>Información sobre Elrond</title>
         <link rel="stylesheet" type="text/css" href="../../css/estilo.css">
         <!-- Bootstrap CSS -->
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
@@ -23,33 +23,34 @@
                             <a class="nav-link" href="../../index.html" role="link">Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../historia.html" role="link">Historia</a>
+                            <a class="nav-link" href="../historia/historia.html" role="link">Historia</a>
                         </li>
                         <li class="nav-item dropdown ">
-                            <a class="nav-link dropdown-toggle" href="../historia.html" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Personajes
                             </a>
                             <div class="dropdown-menu navbar-expand-lg " aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="elrond.html" role="link">Elron</a>
-                                <a class="dropdown-item" href="arwen.html" role="link">Arwen</a>
-                                <a class="dropdown-item" href="Thranduil.html" role="link">Thranduil</a>
-                                <a class="dropdown-item" href="Legolas.html" role="link">Legolas</a>
-                                <a class="dropdown-item" href="Galadriel.html" role="link">Galadriel</a>
+                                <a class="dropdown-item" href="../personajes/elrond.html" role="link" onFocus="accessFocusSubMenu(this)" onBlur="accessBlurSubMenu(this)">Elrond</a>
+                                <a class="dropdown-item" href="../personajes/arwen.html" role="link" onFocus="accessFocusSubMenu(this)" onBlur="accessBlurSubMenu(this)">Arwen</a>
+                                <a class="dropdown-item" href="../personajes/thranduil.html" role="link" onFocus="accessFocusSubMenu(this)" onBlur="accessBlurSubMenu(this)">Thranduil</a>
+                                <a class="dropdown-item" href="../personajes/legolas.html" role="link" onFocus="accessFocusSubMenu(this)" onBlur="accessBlurSubMenu(this)">Legolas</a>
+                                <a class="dropdown-item" href="../personajes/galadriel.html" role="link" onFocus="accessFocusSubMenu(this)" onBlur="accessBlurSubMenu(this)">Galadriel</a>
                             </div>
                         </li>
                         <li class="nav-item" >
-                            <a class="nav-link" href="../formulario.html" role="link">Únete al clan</a>
+                            <a class="nav-link" href="../formulario/formulario.html" role="link">Únete al clan</a>
                         </li>
                     </ul>
                 </div>
                 <p class="text-white-50" style="margin: 0;">Bienvenidos al clan</p>
                 <img id="imgMenu" alt="Imagen de elfa" src="../../imagenes/tauriel.jpg">
             </nav>
-            <div class="justify-content-around d-flex align-items-center bd-highlight" style="text-align: justify;">
-                <div class=" bg-dark text-white" style=" padding: 2%; margin: 0 13%; font-family: 'Oswald', serif;">
-                    <p class="">
+            <div class="justify-content-around d-flex align-items-center bd-highlight mt-4 ml-4 mr-4" style="text-align: justify;">
+                <div class=" bg-dark text-white" style=" padding: 2%; font-family: 'Oswald', serif;">
+                    <p>
                         <h3 style="width: 100%; border-bottom: white 1px solid;">HISTORIA</h3>
-                        <h3>Elrond</h3> Es medio-elfo (hijo de Elfos y Hombres, también llamados Peredhil) muy fuerte y sabio.
+                        <h3>Elrond</h3>
+                        Es medio-elfo (hijo de Elfos y Hombres, también llamados Peredhil) muy fuerte y sabio.
                         Se enfrentó a Sauron en la Guerra del Anillo y luchó en la Guerra de la Última Alianza y en la
                         invasión de Eriador.
                         Es hijo de Eärendil, tiene un hermano llamado Elros quien, a diferencia de él, eligió ser de la
@@ -58,15 +59,20 @@
                         de manos de Gil-galad. Se lo conoció como Elrond el Medio Elfo y Señor de Imladris.
                         Físicamente tiene las características de un elfo común, de pelo negro y tez blanca e
                         imperecedera que por un lado se ve joven, pero por otro se ve extraordinariamente sabio, de
-                        ojos grises con un claro resplandor estelar.<br/><br/>
+                        ojos grises con un claro resplandor estelar.
+                    </p>
+                    <p>
                         <h3 style="width: 100%; border-bottom: white 1px solid;">HABILIDADES</h3>
                         Se dice que Elrond era el más sabio entre los Eldar, excepto quizá Galadriel. Era un gran maestro de
                         la ciencia y un poderoso guerrero, que en más de una ocasión se enfrentó a Sauron.
                     </p>
                 </div>
                 <div>
-                    <img src="../../imagenes/elrond.png">
+                    <img class="tamano" src="../../imagenes/elrond.png" role="img" alt="Imagen del personaje Elrond">
                 </div>
+            </div>
+            <div style="text-align: center" data-picture data-alt="imagenes">
+                <div data-src="../../imagenes/elrond.png" data-media="(max-width:880px)" role="img" alt="Imagen del personaje Elrond"></div>
             </div>
         </div>
         <footer class="row bg-dark m-0 justify-content-between ">
@@ -81,5 +87,9 @@
         </footer>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script src="../../javaScript/accesibilidad.js"></script>
+        <script src="../../pictureFill/matchMedia.js"></script>
+        <script src="../../pictureFill/modernizr.custom.89870.js"></script>
+        <script src="../../pictureFill/picturefill.js"></script>
     </body>
 </html>

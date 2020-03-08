@@ -1,0 +1,42 @@
+@media (max-width: 863px) {
+
+    footer{
+        position: relative;
+        bottom: 0;
+    }
+}
+@media (max-width: 1040px) {
+    /*Para que la imagen del menú no disminuya más y se quede fijo*/
+    #imgMenu{
+        width: 100px;
+        height: auto;
+    }
+    /*margen inferior en las cartas del home*/
+    #central{
+        margin-bottom: 20%;
+    }
+}
+@media (max-width: 992px) {
+    /*Quitar el mensaje de bienvenidos del menú*/
+    nav>p{
+        display: none;
+    }
+}
+@media (max-width: 590px) {
+    /*Alinear al centro el contenido del footer*/
+    footer *{
+        margin: 0 auto;
+        text-align: center;
+    }
+    /*Margen inferior para el formulario*/
+    #margenInferior{
+        margin-bottom: 35%;
+    }
+}
+/*Para quitar la imagen del centro de la página historias*/
+@media (max-width: 880px){
+    .tamano{
+        display: none;
+    }
+
+}

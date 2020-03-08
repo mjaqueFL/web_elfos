@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: http://2daw.esvirgua.com/00/final/paginas/formulario/formulario.html
+Allow: http://2daw.esvirgua.com/00/final/index.html
+Sitemap: http://2daw.esvirgua.com/00/final/siteMaps/sitemaps.xml
