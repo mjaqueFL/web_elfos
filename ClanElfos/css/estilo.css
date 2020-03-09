@@ -14,7 +14,7 @@ body{
 nav{
 	font-family: 'Fondamento' ;
 	font-size: 1.5rem;
-    margin-bottom: 5%;
+
 }
 /*Tamaño de la imagen del menu*/
 nav>img{
@@ -75,4 +75,10 @@ footer{
 .icono>img{
     width: 100%;
     height: auto;
+}
+/* Aqui ira el estilo de la caja del mensaje de advertencia de cookies*/
+
+#overbox3 {
+    width: 100%;
+    text-align: justify;
 }

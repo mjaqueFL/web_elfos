@@ -6,7 +6,6 @@
         <meta name="description" content="Conoce a los elfos más importantes de la saga literaria de El señor de los anillos, así como su historia y conviértete en uno de ellos">
         <title>Clan elfos de el señor de los anillos</title>
         <link rel="stylesheet" type="text/css" href="../../css/estilo.css">
-        <script src="../../javaScript/accesibilidad.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Fondamento&display=swap" rel="stylesheet">
@@ -46,7 +45,17 @@
                 <p class="text-white-50" style="margin: 0;">Bienvenidos al clan</p>
                 <img id="imgMenu" alt="Imagen de elfa" src="../../imagenes/tauriel.jpg">
             </nav>
-            <div id="central" class="row justify-content-around d-flex align-items-center bd-highlight" style=" font-family: 'Oswald', serif; text-align: center;">
+            <div id="overbox3" class="alert alert-dismissible fade show " role="alert" style="background-color: #edd1ce; display: block;">
+                <p>
+                    Esta web utiliza cookies para obtener datos estadísticos de la navegación de sus usuarios.
+                    Si continúas navegando consideramos que aceptas su uso.
+                    Para más información haga click en <a href="paginas/legales/cookies.html">politica de cookies</a>.
+                </p>
+                <button role="button" type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="comprobarCookie()">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div id="central" class="row justify-content-around d-flex align-items-center bd-highlight" style=" font-family: 'Oswald', serif; text-align: center; margin-top: 4%">
                 <div class="carta m-1" style="width: 18rem;">
                     <div class="card-body">
                         <h5 class="card-title">
@@ -117,5 +126,7 @@
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <script src="../../javaScript/accesibilidad.js"></script>
+        <script src="../../javaScript/cookies.js"></script>
+
     </body>
 </html>

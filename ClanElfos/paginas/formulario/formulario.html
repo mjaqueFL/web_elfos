@@ -46,7 +46,17 @@
                 <p class="text-white-50" style="margin: 0;">Bienvenidos al clan</p>
                 <img id="imgMenu" alt="Imagen de elfa" src="../../imagenes/tauriel.jpg">
             </nav>
-            <div class="row" style="opacity: 0.9;margin:0 5%; font-family: 'Oswald', serif; background-color: #edd1ce; text-align: justify; padding: 0 7%; ">
+            <div id="overbox3" class="alert alert-dismissible fade show " role="alert" style="background-color: #edd1ce; display: block;">
+                <p>
+                    Esta web utiliza cookies para obtener datos estadísticos de la navegación de sus usuarios.
+                    Si continúas navegando consideramos que aceptas su uso.
+                    Para más información haga click en <a href="paginas/legales/cookies.html">politica de cookies</a>.
+                </p>
+                <button role="button" type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="comprobarCookie()">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
+            <div class="row" style="opacity: 0.9;margin:5% 5% 0; font-family: 'Oswald', serif; background-color: #edd1ce; text-align: justify; padding: 0 7%; ">
                 <span class="anchor" id="formComplex"></span>
                 <div class="row col-12" style="padding-left: 40%"><h3 style="font-size: 250%;font-family: 'Fondamento', serif;">UNETE!!! </h3></div>
                 <div class="row col-12" style="margin: 3% 0;">
@@ -158,5 +168,6 @@
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <script src="../../javaScript/accesibilidad.js"></script>
         <script src="../../javaScript/formulario.js"></script>
+        <script src="../../javaScript/cookies.js"></script>
     </body>
 </html>

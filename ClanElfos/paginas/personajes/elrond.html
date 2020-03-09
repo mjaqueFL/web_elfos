@@ -45,6 +45,16 @@
                 <p class="text-white-50" style="margin: 0;">Bienvenidos al clan</p>
                 <img id="imgMenu" alt="Imagen de elfa" src="../../imagenes/tauriel.jpg">
             </nav>
+            <div id="overbox3" class="alert alert-dismissible fade show " role="alert" style="background-color: #edd1ce; display: block;">
+                <p>
+                    Esta web utiliza cookies para obtener datos estadísticos de la navegación de sus usuarios.
+                    Si continúas navegando consideramos que aceptas su uso.
+                    Para más información haga click en <a href="paginas/legales/cookies.html">politica de cookies</a>.
+                </p>
+                <button role="button" type="button" class="close" data-dismiss="alert" aria-label="Close" onclick="comprobarCookie()">
+                    <span aria-hidden="true">×</span>
+                </button>
+            </div>
             <div class="justify-content-around d-flex align-items-center bd-highlight mt-4 ml-4 mr-4" style="text-align: justify;">
                 <div class=" bg-dark text-white" style=" padding: 2%; font-family: 'Oswald', serif;">
                     <p>
@@ -74,20 +84,21 @@
             <div style="text-align: center" data-picture data-alt="imagenes">
                 <div data-src="../../imagenes/elrond.png" data-media="(max-width:880px)" role="img" alt="Imagen del personaje Elrond"></div>
             </div>
+            <footer class="row bg-dark m-0 justify-content-between ">
+                <div>
+                    <img src="../../imagenes/car_logo_el_senor_de_los_anillos.png" alt="Imagen de texto el señor de los anillos" longdesc="Imagen con el texto el señor de los anillos que forma parte del pie de página" role="img">
+                </div>
+                <div class="d-flex justify-content-around align-items-center" style="width: 50%; font-family: 'Oswald', serif;" role="contentinfo">
+                    <a class="estiloEnlace align-item-center" href="../legales/privacidad.html" role="link" onFocus="accessFocusMenu(this)" onBlur="removeBackground(this)">Política de privacidad</a>
+                    <a class="estiloEnlace align-item-center" href="../legales/cookies.html" role="link" onFocus="accessFocusMenu(this)" onBlur="removeBackground(this)">Política de cookies</a>
+                    <a class="estiloEnlace align-item-center" href="../legales/aviso.html" role="link" onFocus="accessFocusMenu(this)" onBlur="removeBackground(this)">Aviso legal</a>
+                </div>
+            </footer>
         </div>
-        <footer class="row bg-dark m-0 justify-content-between ">
-            <div>
-                <img src="../../imagenes/car_logo_el_senor_de_los_anillos.png" alt="Imagen de texto el señor de los anillos" longdesc="Imagen con el texto el señor de los anillos que forma parte del pie de página" role="img">
-            </div>
-            <div class="d-flex justify-content-around align-items-center" style="width: 50%; font-family: 'Oswald', serif;" role="contentinfo">
-                <a class="estiloEnlace align-item-center" href="../legales/privacidad.html" role="link">Política de privacidad</a>
-                <a class="estiloEnlace align-item-center" href="../legales/cookies.html" role="link">Política de cookies</a>
-                <a class="estiloEnlace align-item-center" href="../legales/aviso.html" role="link" >Aviso legal</a>
-            </div>
-        </footer>
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
         <script src="../../javaScript/accesibilidad.js"></script>
+        <script src="../../javaScript/cookies.js"></script>
         <script src="../../pictureFill/matchMedia.js"></script>
         <script src="../../pictureFill/modernizr.custom.89870.js"></script>
         <script src="../../pictureFill/picturefill.js"></script>
