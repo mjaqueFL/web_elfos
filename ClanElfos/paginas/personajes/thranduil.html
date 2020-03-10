@@ -13,20 +13,20 @@
     </head>
     <body>
         <div class="container-fluid p-0 " role="main">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark"  role="navigation">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark"  role="navigation">
                 <button name="BotónMenú"class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" role="button">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse " id="navbarNavDropdown" >
                     <ul class="navbar-nav" >
                         <li class="nav-item " >
-                            <a class="nav-link" href="../../index.html" role="link">Home <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="../../index.html" role="link" onFocus="accessFocusMenu(this)" onBlur="removeBackground(this)" >Home <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="../historia/historia.html" role="link">Historia</a>
+                            <a class="nav-link" href="../../paginas/historia/historia.html" role="link" onFocus="accessFocusMenu(this)" onBlur="removeBackground(this)">Historia</a>
                         </li>
                         <li class="nav-item dropdown active">
-                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onFocus="accessFocusMenu(this)" onBlur="removeBackground(this)">
                                 Personajes
                             </a>
                             <div class="dropdown-menu navbar-expand-lg " aria-labelledby="navbarDropdownMenuLink">
@@ -38,12 +38,12 @@
                             </div>
                         </li>
                         <li class="nav-item" >
-                            <a class="nav-link" href="../formulario/formulario.html" role="link">Únete al clan</a>
+                            <a class="nav-link" href="../../paginas/formulario/formulario.html" role="link" onFocus="accessFocusMenu(this)" onBlur="removeBackground(this)">Únete al clan</a>
                         </li>
                     </ul>
                 </div>
                 <p class="text-white-50" style="margin: 0;">Bienvenidos al clan</p>
-                <img id="imgMenu" role="img" alt="Imagen de elfa" src="../../imagenes/tauriel.jpg">
+                <img id="imgMenu" alt="Imagen de elfa" src="../../imagenes/tauriel.jpg">
             </nav>
             <div id="overbox3" class="alert alert-dismissible fade show " role="alert" style="background-color: #edd1ce; display: block;">
                 <p>
