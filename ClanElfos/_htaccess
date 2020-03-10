@@ -1,3 +1,0 @@
-ErrorDocument 403 /final/paginas/errores/403.html
-ErrorDocument 404 /final/paginas/errores/404.html
-Options -Indexes
